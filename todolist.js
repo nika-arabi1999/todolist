@@ -114,7 +114,7 @@ function pushNewTodo(newTodo) {
   let savedTodos = getAllTodos();
   savedTodos.push(newTodo);
   localStorage.setItem("todos", JSON.stringify(savedTodos));
-  return savedTodos; //why?
+  return savedTodos; 
 }
 
 function getAllTodos() {
